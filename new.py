@@ -31,14 +31,8 @@ class RoiOfRentalProperty():
 
 roi = RoiOfRentalProperty(int(input('Monthly Rent Income: ')), 
                          int(input('Monthly Expenses (Mortgage + Tax + Insurance + Utilities + etc...): ')),
-                         int(input('Total Investment (Down payment + Closing Costs + Initial rehab): ')))
+                         int(input('Total Investment: ')))
 
 
 print(f'\nAnnual cash flow: ${roi.annual_cash_flow}')
 print('\nCash on Cash ROI:', str(roi.cash_on_cash_roi) + '%')
-
-
-
-
-
-
